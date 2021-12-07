@@ -8,9 +8,12 @@ import { useFirestoreConnect, isLoaded, isEmpty } from 'react-redux-firebase'
 
 function TicketList(props){
   // The useFirestoreConnect() hook comes from react-redux-firebase.
+  // useFirestoreConnect([
+  //   { collection: 'tickets',
+  //     doc: ticketId }
+  // ]);
   useFirestoreConnect([
-    { collection: 'tickets',
-      doc: ticketId }
+    { collection: 'tickets'}
   ]);
 
   // The useSelector() hook comes from react-redux.
