@@ -1,12 +1,15 @@
 {
   "name": "week-4-react-nosql-starter-project",
   "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "firebase": "^9.6.0",
+    "firebase-tools": "^9.23.0",
     "moment": "^2.24.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -21,7 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": ""
+  },
+  "engines": {
+    "node": "8"
   },
   "eslintConfig": {
     "extends": "react-app"
