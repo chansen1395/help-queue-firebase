@@ -1,7 +1,8 @@
 import React from "react";
 import firebase from 'firebase/compat/app';
+
 // import * as firebase from 'firebase'
-import { withFirestore, isLoaded } from 'react-redux-firebase';
+import { isLoaded } from 'react-redux-firebase';
 import 'firebase/compat/auth';
 
 function Signin() {
@@ -35,57 +36,59 @@ function Signin() {
     });
   }
 
-  render() {
-    const auth = this.props.firebase.auth();
-    if (!isLoaded(auth)) {
+  // class SigninControl extends React.Component {
+
+  // render () {
+    // const auth = this.props.firebase.auth();
+    // if (!isLoaded(auth)) {
+    //   return (
+    //     // <React.Fragment>
+    //       <h1>Loading...</h1>
+    //     // </React.Fragment>
+    //   );
+    // }
+    // if ((isLoaded(auth)) && (auth.currentUser == null)) {
       return (
         <React.Fragment>
-          <h1>Loading...</h1>
-        </React.Fragment>
-      );
-    }
-    if ((isLoaded(auth)) && (auth.currentUser == null)) {
-      return (
-      <React.Fragment>
         <h1>Sign up</h1>
-        <form onSubmit={doSignUp}>
-          <input
-            type='text'
-            name='email'
-            placeholder='email' />
-          <input
-            type='password'
-            name='password'
-            placeholder='Password' />
-          <button type='submit'>Sign up</button>
-        </form>
+          <form onSubmit={doSignUp}>
+            <input
+              type='text'
+              name='email'
+              placeholder='email' />
+            <input
+              type='password'
+              name='password'
+              placeholder='Password' />
+            <button type='submit'>Sign up</button>
+          </form>
 
-        <h1>Sign In</h1>
-        <form onSubmit={doSignIn}>
-          <input
-            type='text'
-            name='signinEmail'
-            placeholder='email' />
-          <input
-            type='password'
-            name='signinPassword'
-            placeholder='Password' />
-          <button type='submit'>Sign in</button>
-        </form>
-      </React.Fragment>
-      );
-    }
+          <h1>Sign In</h1>
+          <form onSubmit={doSignIn}>
+            <input
+              type='text'
+              name='signinEmail'
+              placeholder='email' />
+            <input
+              type='password'
+              name='signinPassword'
+              placeholder='Password' />
+            <button type='submit'>Sign in</button>
+          </form>
+        {/* </React.Fragment> */}
+      {/* ); */}
+    {/* } */}
 
-    if ((isLoaded(auth)) && (auth.currentUser == !null)) {
+    {/* if ((isLoaded(auth)) && (auth.currentUser == !null)) {
       return (
-        <React.Fragment>
+        <React.Fragment> */}
           <h1>Sign Out</h1>
           <button onClick={doSignOut}>Sign out</button>
         </React.Fragment>
 
-      )
+      );
     }
-  }
-}
-
+  // }
+// }
+// }
 export default Signin
