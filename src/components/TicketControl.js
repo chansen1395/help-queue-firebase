@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import * as a from './../actions';
 import { withFirestore, isLoaded } from 'react-redux-firebase';
-
+import 'firebase/compat/auth';
 
 class TicketControl extends React.Component {
 

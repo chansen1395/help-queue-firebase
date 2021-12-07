@@ -1,0 +1,244 @@
+[debug] [2021-12-07T04:44:32.907Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T04:44:32.909Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-12-07T04:44:32.909Z] CLI Version:   7.13.1
+[debug] [2021-12-07T04:44:32.909Z] Platform:      win32
+[debug] [2021-12-07T04:44:32.909Z] Node Version:  v14.17.5
+[debug] [2021-12-07T04:44:32.909Z] Time:          Mon Dec 06 2021 20:44:32 GMT-0800 (Pacific Standard Time)
+[debug] [2021-12-07T04:44:32.909Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T04:44:32.909Z] 
+[debug] [2021-12-07T04:44:32.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-07T04:44:32.916Z] > authorizing via signed-in user
+[debug] [2021-12-07T04:44:32.916Z] [iam] checking project help-queue-a088e for permissions ["firebase.projects.get"]
+[debug] [2021-12-07T04:44:32.917Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/help-queue-a088e:testIamPermissions  
+
+[debug] [2021-12-07T04:44:33.044Z] <<< HTTP RESPONSE 200
+[debug] [2021-12-07T04:44:33.045Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e  
+ 
+[debug] [2021-12-07T04:44:33.229Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project'...
+[info] 
+[debug] [2021-12-07T04:44:33.240Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e/webApps/-/config  
+ 
+[debug] [2021-12-07T04:44:33.314Z] Error: Cannot find module 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project\functions\package.json'
+Require stack:
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-exec.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:324:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:323:16)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:102:42)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.start (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:101:16)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-12-07T05:07:04.168Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:07:04.170Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-12-07T05:07:04.170Z] CLI Version:   7.13.1
+[debug] [2021-12-07T05:07:04.170Z] Platform:      win32
+[debug] [2021-12-07T05:07:04.170Z] Node Version:  v14.17.5
+[debug] [2021-12-07T05:07:04.171Z] Time:          Mon Dec 06 2021 21:07:04 GMT-0800 (Pacific Standard Time)
+[debug] [2021-12-07T05:07:04.171Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:07:04.171Z] 
+[debug] [2021-12-07T05:07:04.177Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-07T05:07:04.177Z] > authorizing via signed-in user
+[debug] [2021-12-07T05:07:04.177Z] [iam] checking project help-queue-a088e for permissions ["firebase.projects.get"]
+[debug] [2021-12-07T05:07:04.178Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/help-queue-a088e:testIamPermissions  
+
+[debug] [2021-12-07T05:07:04.342Z] <<< HTTP RESPONSE 200
+[debug] [2021-12-07T05:07:04.344Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e  
+ 
+[debug] [2021-12-07T05:07:04.493Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project'...
+[info] 
+[debug] [2021-12-07T05:07:04.496Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e/webApps/-/config  
+ 
+[debug] [2021-12-07T05:07:04.570Z] Error: Cannot find module 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project\functions\package.json'
+Require stack:
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-exec.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:324:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:323:16)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:102:42)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.start (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:101:16)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-12-07T05:14:57.024Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:14:57.026Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-12-07T05:14:57.026Z] CLI Version:   7.13.1
+[debug] [2021-12-07T05:14:57.026Z] Platform:      win32
+[debug] [2021-12-07T05:14:57.026Z] Node Version:  v14.17.5
+[debug] [2021-12-07T05:14:57.027Z] Time:          Mon Dec 06 2021 21:14:57 GMT-0800 (Pacific Standard Time)
+[debug] [2021-12-07T05:14:57.027Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:14:57.027Z] 
+[debug] [2021-12-07T05:14:57.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-07T05:14:57.033Z] > authorizing via signed-in user
+[debug] [2021-12-07T05:14:57.033Z] [iam] checking project help-queue-a088e for permissions ["firebase.projects.get"]
+[debug] [2021-12-07T05:14:57.034Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-07T05:14:57.034Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-07T05:14:57.123Z] <<< HTTP RESPONSE 200
+[debug] [2021-12-07T05:14:57.143Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/help-queue-a088e:testIamPermissions  
+
+[debug] [2021-12-07T05:14:57.249Z] <<< HTTP RESPONSE 200
+[debug] [2021-12-07T05:14:57.250Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e  
+ 
+[debug] [2021-12-07T05:14:57.399Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project'...
+[info] 
+[debug] [2021-12-07T05:14:57.402Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e/webApps/-/config  
+ 
+[debug] [2021-12-07T05:14:57.462Z] Error: Cannot find module 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project\functions\package.json'
+Require stack:
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-exec.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:324:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:323:16)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:102:42)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.start (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:101:16)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-12-07T05:20:07.956Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:20:07.958Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-12-07T05:20:07.958Z] CLI Version:   7.13.1
+[debug] [2021-12-07T05:20:07.958Z] Platform:      win32
+[debug] [2021-12-07T05:20:07.958Z] Node Version:  v14.17.5
+[debug] [2021-12-07T05:20:07.959Z] Time:          Mon Dec 06 2021 21:20:07 GMT-0800 (Pacific Standard Time)
+[debug] [2021-12-07T05:20:07.959Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:20:07.959Z] 
+[debug] [2021-12-07T05:20:07.965Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-07T05:20:07.965Z] > authorizing via signed-in user
+[debug] [2021-12-07T05:20:07.965Z] [iam] checking project help-queue-a088e for permissions ["firebase.projects.get"]
+[debug] [2021-12-07T05:20:07.966Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/help-queue-a088e:testIamPermissions  
+
+[debug] [2021-12-07T05:20:08.126Z] <<< HTTP RESPONSE 200
+[debug] [2021-12-07T05:20:08.128Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e  
+ 
+[debug] [2021-12-07T05:20:08.300Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project'...
+[info] 
+[debug] [2021-12-07T05:20:08.303Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e/webApps/-/config  
+ 
+[debug] [2021-12-07T05:20:08.370Z] Error: Cannot find module 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project\functions\package.json'
+Require stack:
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-exec.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:324:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:323:16)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:102:42)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.start (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:101:16)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-12-07T05:21:03.339Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:21:03.341Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-12-07T05:21:03.341Z] CLI Version:   7.13.1
+[debug] [2021-12-07T05:21:03.341Z] Platform:      win32
+[debug] [2021-12-07T05:21:03.341Z] Node Version:  v14.17.5
+[debug] [2021-12-07T05:21:03.342Z] Time:          Mon Dec 06 2021 21:21:03 GMT-0800 (Pacific Standard Time)
+[debug] [2021-12-07T05:21:03.342Z] ----------------------------------------------------------------------
+[debug] [2021-12-07T05:21:03.342Z] 
+[debug] [2021-12-07T05:21:03.348Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-07T05:21:03.348Z] > authorizing via signed-in user
+[debug] [2021-12-07T05:21:03.348Z] [iam] checking project help-queue-a088e for permissions ["firebase.projects.get"]
+[debug] [2021-12-07T05:21:03.349Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/help-queue-a088e:testIamPermissions  
+
+[debug] [2021-12-07T05:21:03.460Z] <<< HTTP RESPONSE 200
+[debug] [2021-12-07T05:21:03.461Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e  
+ 
+[debug] [2021-12-07T05:21:03.610Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project'...
+[info] 
+[debug] [2021-12-07T05:21:03.613Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/help-queue-a088e/webApps/-/config  
+ 
+[debug] [2021-12-07T05:21:03.672Z] Error: Cannot find module 'C:\Users\thesu\Desktop\Epicodus\RWEEK4\week-4-updated-react-nosql-starter-project\functions\package.json'
+Require stack:
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-exec.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:324:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:323:16)
+    at FunctionsEmulator.<anonymous> (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:102:42)
+    at Generator.next (<anonymous>)
+    at C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:4:12)
+    at FunctionsEmulator.start (C:\Users\thesu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:101:16)
+[error] 
+[error] Error: An unexpected error has occurred.
